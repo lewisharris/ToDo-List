@@ -1,0 +1,22 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.item {
+  text-decoration: none;
+  list-style-type: none;
+  height: 30px;
+  background: white;
+  border-top: 2px solid black;
+  width: 30%;
+  min-width: 300px;
+  max-width: 1000px;
+}
+
+.checked {
+  -webkit-transition: opacity 800ms ease-in-out;
+  transition: opacity 800ms ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

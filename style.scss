@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.item{
+    text-decoration:none;
+    list-style-type:none;
+    height:30px;
+    background:white;
+    border-top:2px solid black;
+    width:30%;
+    min-width:300px;
+    max-width:1000px;
+}
+
+
+.checked{
+    transition: opacity 800ms ease-in-out;
+}
+
+
+
+
+
+
