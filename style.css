@@ -16,7 +16,8 @@ html {
 }
 
 .checked {
-  -webkit-transition: opacity 800ms ease-in-out;
-  transition: opacity 800ms ease-in-out;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=style.css.map */
