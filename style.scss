@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 //Variables
 $darktext:#1B1B1B;
 
@@ -20,8 +21,9 @@ body{
 
 header h1{
     margin:10px auto;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
-    color:#579979;
+    color:#325F5C;
     min-width:300px;
     max-width:600px;
     width:40%;
