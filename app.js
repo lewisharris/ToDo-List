@@ -13,7 +13,7 @@ add.addEventListener('click',() => {
     event.preventDefault();
     if(text.value != ''){
         if(text.value.length > 20 ){
-            text.value = 'Max 30 characters...';
+            text.value = 'Max 20 characters...';
             text.focus();
             return;
         };
