@@ -2,20 +2,23 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charset="UTF-8">
     </head>
     <body>
         <header>
-            <h1>ToDo List</h1>
+            <h1>Reminders</h1>
         </header>
         <div id="container">
             <form id="inputform">
-                <input type="Text" id = "textinput" name="todo">
-                <button type="submit" id="add" name="todo">Add</button>
+                <input type="Text" id = "textinput" name="todo" placeholder="Enter task...">
+                <button type="submit" id="add" name="todo">+</button>
             </form>
             <ul id="list">
             </ul>
-            <a id='clearall'>Clear all</a>  
+            <p id='clearall'>Clear all</p>  
         </div>
         <script src="app.js"></script>
     </body>
 </html>
+
