@@ -12,12 +12,15 @@ const clearSelected = getId('clearselected');
 add.addEventListener('click',() => {
     event.preventDefault();
     if(text.value != ''){
-        list.insertAdjacentHTML("beforeend",`<li class="item" id="${iD}"><span>${text.value}</span><input class="checkbox" type="checkbox" value="false"></li>`);
-        text.value = '';
-        text.focus();
+        if(text.value.length > 20 ){
+            text.value = 'Max 30 characters...';
+            text.focus();
+            return;
+        };
+            list.insertAdjacentHTML("beforeend",`<li class="item" id="${iD}"><span>${text.value}</span><input class="checkbox" type="checkbox" value="false"></li>`);
+            text.value = '';
     }
-    else{
-        text.focus();}
+    text.focus();
 });
 
 //Check and delete items
@@ -27,8 +30,7 @@ list.addEventListener('click',() =>{
         eParent = e.parentNode;
         eParent.classList.toggle('checked');
         eParent.style.opacity = '0';
-        setTimeout(() => { eParent.parentNode.removeChild(eParent)},350);
-        
+        setTimeout(() => { eParent.parentNode.removeChild(eParent)},350);       
     }
 })
 
