@@ -17,7 +17,8 @@ html{
 
 
 .checked{
-    transition: opacity 800ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+    text-decoration: line-through;
 }
 
 
