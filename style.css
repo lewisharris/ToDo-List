@@ -64,6 +64,7 @@ header h1 {
   color: #1B1B1B;
   outline: none;
   font-weight: lighter;
+  line-height: 1.5;
 }
 
 #textinput:focus {
@@ -75,13 +76,13 @@ header h1 {
   margin: 0;
   border: 0;
   height: 100%;
-  background: #215847;
+  background: #0EC7C1;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
   font-size: 2rem;
-  line-height: 1;
-  font-weight: lighter;
+  line-height: 1.1;
+  font-weight: normal;
   color: white;
   outline: none;
 }
